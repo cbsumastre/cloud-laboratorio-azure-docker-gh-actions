@@ -17,7 +17,7 @@ Desplegar la app en Azure, usando Docker y Github Actions.
   ![snapshot_github_token.png](./snapshot/snapshot_github_token.png)
 
 
-  - Configurar las variables de entorno en Azure
+  - Configurar las variables de entorno en Azure (el valor de DOCKER_REGISTRY_SERVER_PASSWORD es el PAT)
 ![snapshot_environament_variables.png](./snapshot/snapshot_environament_variables.png)
 
 - Habilitar autenticación básica en Azure

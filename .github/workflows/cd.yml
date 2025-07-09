@@ -15,6 +15,9 @@ permissions:
 jobs:
   cd:
     runs-on: ubuntu-latest
+    environment:
+      name: Production
+      url: todo-app-docker.azurewebsites.net
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
