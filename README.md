@@ -73,3 +73,7 @@ jobs:
           publish-profile: ${{ secrets.AZURE_PUBLISH_PROFILE }}
           images: ${{ env.IMAGE_NAME}}
 ```
+
+
+- Aplicación desplegada con Dockerfile + Github Actions + Azure:
+  [https://todo-app-docker.azurewebsites.net/](https://todo-app-docker.azurewebsites.net/)
